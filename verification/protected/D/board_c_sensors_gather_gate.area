@@ -1,0 +1,88 @@
+standard
+***Report Model: board_c_sensors_gather Device: EG4S20BG256***
+
+IO Statistics
+#IO                        50   out of    188   26.60%
+  #input                   13
+  #output                  37
+  #inout                    0
+
+LUT Statistics
+#Total_luts             15358
+  #lut4                 12523
+  #lut5                  2291
+  #lut6                   544
+  #lut5_mx41                0
+  #lut4_alu1b               0
+
+Utilization Statistics
+#lut                    18170   out of  19600   92.70%
+#reg                     9898   out of  19600   50.50%
+#bram                      56   out of     64   87.50%
+  #bram9k                  56
+  #fifo9k                   0
+#bram32k                    8   out of     16   50.00%
+#dsp                       15   out of     29   51.72%
+#pad                       54   out of    188   28.72%
+  #ireg                     9
+  #oreg                    23
+  #treg                     0
+#pll                        1   out of      4   25.00%
+#gclk                       1   out of     16    6.25%
+
+Report Hierarchy Area:
++----------------------------------------------------------------------------------------------------+
+|Instance                      |Module                  |lut     |ripple  |seq     |bram    |dsp     |
++----------------------------------------------------------------------------------------------------+
+|top                           |board_c_sensors_gather  |17228   |942     |9930    |64      |15      |
+|  clear_key                   |button_control          |83      |0       |51      |0       |0       |
+|  configuration_flash         |andon_config_store      |1335    |18      |826     |0       |0       |
+|    u_identity                |w25q64_preflight_reader |180     |0       |106     |0       |0       |
+|      u_spi_byte_engine       |spi_byte_engine         |46      |0       |35      |0       |0       |
+|    u_journal                 |config_flash_journal    |954     |18      |675     |0       |0       |
+|      u_journal               |config_journal          |315     |18      |135     |0       |0       |
+|      u_store                 |w25q64_record_store     |471     |0       |308     |0       |0       |
+|        u_byte_engine         |spi_byte_engine         |45      |0       |34      |0       |0       |
+|  configuration_link          |c_sensor_config         |31      |0       |43      |0       |0       |
+|  core                        |board_c_sensor_core     |2820    |354     |2074    |11      |9       |
+|    detector                  |anomaly_detector        |2553    |336     |1669    |6       |9       |
+|      divide                  |unsigned_divider        |262     |17      |223     |0       |0       |
+|      transform               |fft64_dual              |525     |98      |292     |6       |4       |
+|    event_capture             |sensor_andon_event      |54      |0       |74      |0       |0       |
+|    source                    |sensor_sim_source       |209     |18      |329     |5       |0       |
+|  coupling_switch             |switch_pulse            |37      |0       |23      |0       |0       |
+|  display                     |seven_segment           |104     |0       |66      |0       |0       |
+|  factory_controls            |c_factory_control       |20      |0       |18      |0       |0       |
+|  frequency_switch            |switch_pulse            |36      |0       |23      |0       |0       |
+|  media_service               |c_legacy_media          |3869    |285     |2285    |17      |4       |
+|    player                    |andon_voice_player      |722     |47      |347     |2       |1       |
+|      g_soft_audio$u_softener |pcm_speech_softener     |125     |18      |32      |0       |0       |
+|      u_fallback              |pcm_media_tone          |140     |11      |62      |0       |1       |
+|      u_fifo                  |voice_pcm_fifo          |90      |0       |86      |2       |0       |
+|      u_voice_rd_reset        |reset_sync              |0       |0       |3       |0       |0       |
+|      u_voice_wr_reset        |reset_sync              |0       |0       |3       |0       |0       |
+|    storage                   |c_media_storage         |3117    |238     |1934    |7       |3       |
+|      replay                  |sd_sector_replay_buffer |151     |0       |92      |1       |0       |
+|      scanner                 |fat32_volume_scanner    |1096    |97      |960     |4       |0       |
+|      service                 |sd_media_service        |654     |34      |427     |0       |0       |
+|        u_init                |sd_spi_init             |312     |0       |212     |0       |0       |
+|          u_byte_engine       |sd_spi_byte_engine      |52      |0       |39      |0       |0       |
+|          u_command           |sd_spi_command          |124     |0       |98      |0       |0       |
+|        u_reader              |sd_spi_sector_reader    |342     |34      |215     |0       |0       |
+|          u_byte_engine       |sd_spi_byte_engine      |46      |0       |35      |0       |0       |
+|      streamer                |fat32_file_streamer     |843     |85      |269     |2       |2       |
+|      text_loader             |publicity_text_loader   |280     |13      |141     |0       |1       |
+|  mode_key                    |button_control          |85      |0       |51      |0       |0       |
+|  next_key                    |button_control          |86      |0       |51      |0       |0       |
+|  replay_switch               |switch_pulse            |37      |0       |23      |0       |0       |
+|  service_link                |c_media_rpc             |1573    |17      |1558    |1       |1       |
+|    phy                       |service_rpc_slave       |748     |0       |803     |0       |0       |
+|  time_switch                 |switch_pulse            |36      |0       |23      |0       |0       |
+|  video_directory             |c_r9_boot               |1569    |170     |1315    |0       |0       |
+|    scanner                   |c_r9_video_scanner      |1243    |170     |965     |0       |0       |
+|  video_output$monitor        |sensor_hdmi_monitor     |5389    |98      |1396    |35      |1       |
+|    capture                   |sensor_plot_capture     |2021    |89      |894     |29      |1       |
+|    clocks                    |video_pll               |0       |0       |0       |0       |0       |
+|    dashboard                 |sensor_dashboard        |3208    |9       |457     |6       |0       |
+|    timing                    |video_timing_ctrl       |33      |0       |24      |0       |0       |
++----------------------------------------------------------------------------------------------------+

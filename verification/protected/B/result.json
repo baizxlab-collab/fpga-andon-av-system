@@ -1,0 +1,25 @@
+{
+  "protected_synthesis_passed": true,
+  "isolated_relocation_elaboration_passed": true,
+  "source_binding_count": 128,
+  "source_binding_all_matched": true,
+  "gate_resources": {
+    "lut": 18237,
+    "reg": 10284,
+    "bram": 61,
+    "bram32k": 14,
+    "dsp": 23
+  },
+  "baseline_gate_resources_equal": true,
+  "baseline_physical_resources": {
+    "lut": 19008,
+    "reg": 10440,
+    "bram": 61,
+    "bram32k": 14,
+    "dsp": 23
+  },
+  "baseline_routed_timing_ns": {
+    "SWNS": 0.226,
+    "HWNS": 0.02
+  }
+}

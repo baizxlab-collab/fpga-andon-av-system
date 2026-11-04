@@ -1,0 +1,421 @@
+{
+  "hardware_screenshots": false,
+  "pages": [
+    {
+      "title": "照片 · 第1张",
+      "category": "照片",
+      "file": "A_照片/PIC_01_照片.png",
+      "note": "PIC1.bmp · 输入 600×900 → 输出 640×480",
+      "main_media": true,
+      "width": 640,
+      "height": 480,
+      "sha256": "92c7e83365b36fe70bdd5807ec5032424e54b6e7d5c1a7149b5e6ec6f8229445"
+    },
+    {
+      "title": "照片 · 第2张",
+      "category": "照片",
+      "file": "A_照片/PIC_02_照片.png",
+      "note": "PIC2.bmp · 输入 1840×1224 → 输出 640×480",
+      "main_media": true,
+      "width": 640,
+      "height": 480,
+      "sha256": "96be515d2e59803bad3b93fc5f5aa50d22912acd4e09de55102c70c93e61c607"
+    },
+    {
+      "title": "照片 · 第3张",
+      "category": "照片",
+      "file": "A_照片/PIC_03_照片.png",
+      "note": "PIC3.bmp · 输入 600×899 → 输出 640×480",
+      "main_media": true,
+      "width": 640,
+      "height": 480,
+      "sha256": "5d8dd3a4cb60f054588484975adccf49e55efc9909ca985fe9976af72eaa2c09"
+    },
+    {
+      "title": "照片 · 第4张",
+      "category": "照片",
+      "file": "A_照片/PIC_04_照片.png",
+      "note": "PIC4.bmp · 输入 599×400 → 输出 640×480",
+      "main_media": true,
+      "width": 640,
+      "height": 480,
+      "sha256": "9d01df7d05253a320ca0e8bd53cc395d1c5b91914033a341f8ce24c75177e689"
+    },
+    {
+      "title": "文字宣传 · 第1张",
+      "category": "文字宣传",
+      "file": "A_文字宣传/PUB_01_文字宣传.png",
+      "note": "PUB1.bmp · 输入 600×399 → 输出 640×480；对应当前图片的字幕和音频代表状态",
+      "main_media": true,
+      "width": 640,
+      "height": 480,
+      "sha256": "d8841248458589664854e520039395f19b324fcb9ae3b907fd5f9e7a25fb82d0"
+    },
+    {
+      "title": "文字宣传 · 第2张",
+      "category": "文字宣传",
+      "file": "A_文字宣传/PUB_02_文字宣传.png",
+      "note": "PUB2.bmp · 输入 1920×1277 → 输出 640×480；对应当前图片的字幕和音频代表状态",
+      "main_media": true,
+      "width": 640,
+      "height": 480,
+      "sha256": "22c606e4f7c809335ea07ca231f87381c2c4c1262c8ec7472a21e22a8d26c6f6"
+    },
+    {
+      "title": "文字宣传 · 第3张",
+      "category": "文字宣传",
+      "file": "A_文字宣传/PUB_03_文字宣传.png",
+      "note": "PUB3.bmp · 输入 1280×853 → 输出 640×480；对应当前图片的字幕和音频代表状态",
+      "main_media": true,
+      "width": 640,
+      "height": 480,
+      "sha256": "9c1eb4e60547ba572c5107f664c8540ff01917336b1ba4d098c03fd60a3bfe2f"
+    },
+    {
+      "title": "文字宣传 · 第4张",
+      "category": "文字宣传",
+      "file": "A_文字宣传/PUB_04_文字宣传.png",
+      "note": "PUB4.bmp · 输入 854×569 → 输出 640×480；对应当前图片的字幕和音频代表状态",
+      "main_media": true,
+      "width": 640,
+      "height": 480,
+      "sha256": "fc93e4ee0830027623adf9a8b431eafd6d40b9f8121ff04ee75b1d1b7f1d3eae"
+    },
+    {
+      "title": "工厂亮点 · 第1张",
+      "category": "工厂亮点",
+      "file": "A_工厂亮点/HIL_01_工厂亮点.png",
+      "note": "HIL1.bmp · 输入 1700×956 → 输出 640×480；对应当前图片的字幕和音频代表状态",
+      "main_media": true,
+      "width": 640,
+      "height": 480,
+      "sha256": "fe046607db35375b2b57d9b955a3ce71f7569018242a3835ae67436b5ee9372e"
+    },
+    {
+      "title": "工厂亮点 · 第2张",
+      "category": "工厂亮点",
+      "file": "A_工厂亮点/HIL_02_工厂亮点.png",
+      "note": "HIL2.bmp · 输入 640×480 → 输出 640×480；对应当前图片的字幕和音频代表状态",
+      "main_media": true,
+      "width": 640,
+      "height": 480,
+      "sha256": "d8d54278537123bfce8c51672d3342272f8fea5981deba032aa3471454ae7fbe"
+    },
+    {
+      "title": "工厂亮点 · 第3张",
+      "category": "工厂亮点",
+      "file": "A_工厂亮点/HIL_03_工厂亮点.png",
+      "note": "HIL3.bmp · 输入 1080×801 → 输出 640×480；对应当前图片的字幕和音频代表状态",
+      "main_media": true,
+      "width": 640,
+      "height": 480,
+      "sha256": "15835e484febd60a7e139f0da9e5b2fd6405ec09514880dd49decb6e0aa4fe62"
+    },
+    {
+      "title": "工厂亮点 · 第4张",
+      "category": "工厂亮点",
+      "file": "A_工厂亮点/HIL_04_工厂亮点.png",
+      "note": "HIL4.bmp · 输入 1032×1707 → 输出 640×480；对应当前图片的字幕和音频代表状态",
+      "main_media": true,
+      "width": 640,
+      "height": 480,
+      "sha256": "022aa2a8fa1cff3ae17e625949dfdd3a011a9fc291b65bd980e449c1246e8d35"
+    },
+    {
+      "title": "智造之旅 · 封面",
+      "category": "智造之旅",
+      "file": "A_智造之旅/book_0.png",
+      "note": "五视图中的稳定书页",
+      "main_media": true,
+      "width": 640,
+      "height": 480,
+      "sha256": "3eff8fb77a18f5a6572e59512ccc7b66a5619224500f78f4b1c3444730737e20",
+      "raw_file": "A_智造之旅/原生底图/book_0_native.png",
+      "raw_label": "查看原生书页底图"
+    },
+    {
+      "title": "智造之旅 · 第一跨页",
+      "category": "智造之旅",
+      "file": "A_智造之旅/book_1.png",
+      "note": "五视图中的稳定书页",
+      "main_media": true,
+      "width": 640,
+      "height": 480,
+      "sha256": "ada4512232a01a24f1976ec2ae394857b46d986e0f2cbe78320efd4fb359bd66",
+      "raw_file": "A_智造之旅/原生底图/book_1_native.png",
+      "raw_label": "查看原生书页底图"
+    },
+    {
+      "title": "智造之旅 · 翻页中间态（1→2，phase64）",
+      "category": "智造之旅",
+      "file": "A_智造之旅/book_turn_1_to_2_phase64.png",
+      "note": "翻页中间态：1 → 2，phase=64",
+      "main_media": true,
+      "width": 640,
+      "height": 480,
+      "sha256": "2ea974d4b7a6171b5e7e06f95e32f7705813a8a43ff62fbd7d8129a787b2dbd0",
+      "raw_file": "A_智造之旅/原生底图/book_turn_1_to_2_phase64_native.png",
+      "raw_label": "查看原生书页底图"
+    },
+    {
+      "title": "智造之旅 · 第二跨页",
+      "category": "智造之旅",
+      "file": "A_智造之旅/book_2.png",
+      "note": "五视图中的稳定书页",
+      "main_media": true,
+      "width": 640,
+      "height": 480,
+      "sha256": "91c838d5d32fa7a352de23fb52c8f51d8353f11ba2901e33b399befb0132caec",
+      "raw_file": "A_智造之旅/原生底图/book_2_native.png",
+      "raw_label": "查看原生书页底图"
+    },
+    {
+      "title": "智造之旅 · 第三跨页",
+      "category": "智造之旅",
+      "file": "A_智造之旅/book_3.png",
+      "note": "五视图中的稳定书页",
+      "main_media": true,
+      "width": 640,
+      "height": 480,
+      "sha256": "da43608b322ef1c144608ff843605a051d6a08d0e4d20a4be6209bd9cedf7816",
+      "raw_file": "A_智造之旅/原生底图/book_3_native.png",
+      "raw_label": "查看原生书页底图"
+    },
+    {
+      "title": "智造之旅 · 封底",
+      "category": "智造之旅",
+      "file": "A_智造之旅/book_4.png",
+      "note": "五视图中的稳定书页",
+      "main_media": true,
+      "width": 640,
+      "height": 480,
+      "sha256": "211d5f7eac961dd694f2daba9c59a81d7d0149e1d2844281d9f3b2feac2fa7f8",
+      "raw_file": "A_智造之旅/原生底图/book_4_native.png",
+      "raw_label": "查看原生书页底图"
+    },
+    {
+      "title": "视频1 · 第一帧（帧号0）",
+      "category": "视频首帧",
+      "file": "C_视频首帧/VID1_视频1_第一帧.png",
+      "note": "VID1.RV8 · 文件第0帧 · 视频区域640×384，HDMI画面640×480",
+      "main_media": true,
+      "width": 640,
+      "height": 480,
+      "sha256": "8ee060550ef268a384a04d08c9fa41de81d45093a06cce013c8ed8f9c5ddc580",
+      "raw_file": "C_视频首帧/原生底图/VID1_解码首帧_640x384.png",
+      "raw_label": "查看640×384纯解码帧"
+    },
+    {
+      "title": "视频2 · 第一帧（帧号0）",
+      "category": "视频首帧",
+      "file": "C_视频首帧/VID2_视频2_第一帧.png",
+      "note": "VID2.RV8 · 文件第0帧 · 视频区域640×384，HDMI画面640×480",
+      "main_media": true,
+      "width": 640,
+      "height": 480,
+      "sha256": "18e4167949b3b1ca89abbafcb48b2294c3c1155964af709254ae07d69ec48f4b",
+      "raw_file": "C_视频首帧/原生底图/VID2_解码首帧_640x384.png",
+      "raw_label": "查看640×384纯解码帧"
+    },
+    {
+      "title": "视频3 · 第一帧（帧号0）",
+      "category": "视频首帧",
+      "file": "C_视频首帧/VID3_视频3_第一帧.png",
+      "note": "VID3.RV8 · 文件第0帧 · 视频区域640×384，HDMI画面640×480",
+      "main_media": true,
+      "width": 640,
+      "height": 480,
+      "sha256": "40a2c5cb0387cc84f5de2e1ba87be587f8ceef1f72def9771e6aa9a0d4f992c4",
+      "raw_file": "C_视频首帧/原生底图/VID3_解码首帧_640x384.png",
+      "raw_label": "查看640×384纯解码帧"
+    },
+    {
+      "title": "视频4 · 第一帧（帧号0）",
+      "category": "视频首帧",
+      "file": "C_视频首帧/VID4_视频4_第一帧.png",
+      "note": "VID4.RV8 · 文件第0帧 · 视频区域640×384，HDMI画面640×480",
+      "main_media": true,
+      "width": 640,
+      "height": 480,
+      "sha256": "0a0990913ee6d873a7a8d82816279d1673001f8c4c2c30d2a9e4a1f8ba2bb4a6",
+      "raw_file": "C_视频首帧/原生底图/VID4_解码首帧_640x384.png",
+      "raw_label": "查看640×384纯解码帧"
+    },
+    {
+      "title": "小屏首页",
+      "category": "小屏",
+      "file": "B_小屏/b_home_actual.png",
+      "note": "当前显示模块的功能页面；时间、天气为固定示例。",
+      "main_media": false,
+      "width": 1024,
+      "height": 600,
+      "sha256": "fc5db6c9786ea0f2b65599ec22c83ee29bf91ea8bc332db29c76ff373aa1be92"
+    },
+    {
+      "title": "小屏控制中心",
+      "category": "小屏",
+      "file": "B_小屏/b_control_actual.png",
+      "note": "当前显示模块的功能页面；时间、天气为固定示例。",
+      "main_media": false,
+      "width": 1024,
+      "height": 600,
+      "sha256": "575b7cd5c328abf84c37b5e20f327dfa052512658330e6171ccda44546205832"
+    },
+    {
+      "title": "小屏功能菜单",
+      "category": "小屏",
+      "file": "B_小屏/b_menu_actual.png",
+      "note": "当前显示模块的功能页面；时间、天气为固定示例。",
+      "main_media": false,
+      "width": 1024,
+      "height": 600,
+      "sha256": "f13d44ed132fa17b889c29abbaa8cf91121427c9d45253d64b541a07a39c8563"
+    },
+    {
+      "title": "照片选择",
+      "category": "小屏",
+      "file": "B_小屏/b_gallery_actual.png",
+      "note": "当前显示模块的功能页面；时间、天气为固定示例。",
+      "main_media": false,
+      "width": 1024,
+      "height": 600,
+      "sha256": "005eee3277765a99ebd3bb29a61b8100c0cbd630e34026f533faeced3e68da06"
+    },
+    {
+      "title": "实时监控入口",
+      "category": "小屏",
+      "file": "B_小屏/b_monitor_actual.png",
+      "note": "当前显示模块的功能页面；时间、天气为固定示例。",
+      "main_media": false,
+      "width": 1024,
+      "height": 600,
+      "sha256": "93de0b3c7c877261c8238c79e974cbc1afa7c7cf1ac468373991e2109c075b67"
+    },
+    {
+      "title": "视频播放控制",
+      "category": "小屏",
+      "file": "B_小屏/b_video_actual.png",
+      "note": "当前显示模块的功能页面；时间、天气为固定示例。",
+      "main_media": false,
+      "width": 1024,
+      "height": 600,
+      "sha256": "648fdec6f3db2b64ca528b6da718e39d81e9b2873c9900ee90307b0bb2993afe"
+    },
+    {
+      "title": "文字宣传控制",
+      "category": "小屏",
+      "file": "B_小屏/b_publicity_actual.png",
+      "note": "当前显示模块的功能页面；时间、天气为固定示例。",
+      "main_media": false,
+      "width": 1024,
+      "height": 600,
+      "sha256": "e2efc762e37a77fc155905e9f13491e7f6bc09b009fd4b29166d25f000537446"
+    },
+    {
+      "title": "工厂亮点控制",
+      "category": "小屏",
+      "file": "B_小屏/b_factory_actual.png",
+      "note": "当前显示模块的功能页面；时间、天气为固定示例。",
+      "main_media": false,
+      "width": 1024,
+      "height": 600,
+      "sha256": "51567df485a4f78a267e6648299938809edf820af8ea7337dcb1fd1810df8770"
+    },
+    {
+      "title": "小屏 · 智造之旅 · 封面",
+      "category": "小屏",
+      "file": "B_小屏/B_book_view0.png",
+      "note": "书页视图0，1024×600，真实小屏书页映射。",
+      "main_media": false,
+      "width": 1024,
+      "height": 600,
+      "sha256": "0361e87e19fb661bfaf18d90dd0e0ec4d3371406e93304cf1fdbd296b727f7f0"
+    },
+    {
+      "title": "小屏 · 智造之旅 · 第一组内页",
+      "category": "小屏",
+      "file": "B_小屏/B_book_view1.png",
+      "note": "书页视图1，1024×600，真实小屏书页映射。",
+      "main_media": false,
+      "width": 1024,
+      "height": 600,
+      "sha256": "8b1e0bea2b62c30987e116fbb1535c3fae635bd6e8c7276cc7dce1953f00c847"
+    },
+    {
+      "title": "小屏 · 智造之旅 · 第二组内页",
+      "category": "小屏",
+      "file": "B_小屏/B_book_view2.png",
+      "note": "书页视图2，1024×600，真实小屏书页映射。",
+      "main_media": false,
+      "width": 1024,
+      "height": 600,
+      "sha256": "239d6b654353fbb2637afef7f2175b51c8eb453cb76d40416244658765dc43e1"
+    },
+    {
+      "title": "小屏 · 智造之旅 · 第三组内页",
+      "category": "小屏",
+      "file": "B_小屏/B_book_view3.png",
+      "note": "书页视图3，1024×600，真实小屏书页映射。",
+      "main_media": false,
+      "width": 1024,
+      "height": 600,
+      "sha256": "a55639471c88b31723bcef55125d0fb36a8377aec960bda1b743a8c764ad9934"
+    },
+    {
+      "title": "小屏 · 智造之旅 · 封底",
+      "category": "小屏",
+      "file": "B_小屏/B_book_view4.png",
+      "note": "书页视图4，1024×600，真实小屏书页映射。",
+      "main_media": false,
+      "width": 1024,
+      "height": 600,
+      "sha256": "ca088c3180eeaa97711996b8f18a5440a364f23a4968580378bcc69aaece40f4"
+    }
+  ],
+  "main_media_count": 22,
+  "all_page_count": 35,
+  "categories": {
+    "照片": 4,
+    "文字宣传": 4,
+    "工厂亮点": 4,
+    "智造之旅": 6,
+    "视频首帧": 4,
+    "小屏": 13
+  },
+  "overviews": [
+    {
+      "title": "照片",
+      "file": "总览_照片.png"
+    },
+    {
+      "title": "文字宣传",
+      "file": "总览_文字宣传.png"
+    },
+    {
+      "title": "工厂亮点",
+      "file": "总览_工厂亮点.png"
+    },
+    {
+      "title": "智造之旅",
+      "file": "总览_智造之旅.png"
+    },
+    {
+      "title": "视频首帧",
+      "file": "总览_视频首帧.png"
+    },
+    {
+      "title": "小屏",
+      "file": "总览_小屏.png"
+    },
+    {
+      "title": "全部媒体",
+      "file": "总览_全部媒体.png"
+    }
+  ],
+  "evidence": {
+    "a_media": "3ac37b4f0e053469e2b4ecef2c91f0ba6fee1d41e4d51009697b55a6b02c06e2",
+    "book": "30940860b68b480bd02a0f51b855469d5a83ee8f0a286899c03e61f39ef6484d",
+    "video": "4d9cc82cae3e4c3957bde29ce9a1d284d21e0b769195364eba49b635d1a713f1",
+    "b_book": "33ee9145d1e6acbb5d6d301615cd774b0660b83ed3746f4c1647640b94401915"
+  }
+}

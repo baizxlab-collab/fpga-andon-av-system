@@ -1,0 +1,68 @@
+
+`pragma protect begin_protected
+`pragma protect version = 1
+`pragma protect encrypt_agent = "Anlogic"
+`pragma protect encrypt_agent_info = "Anlogic Encryption Tool anlogic_2019"
+`pragma protect key_keyowner = "Anlogic", key_keyname = "anlogic-rsa-009"
+`pragma protect key_method = "rsa"
+`pragma protect encoding = (enctype = "BASE64", line_length = 64, bytes = 128)
+`pragma protect key_block
+NQLBUTHkN9pfTFT8ORMvndUZWrBpUPRHaAK21YpEDwMf9cd0YQ6DrwHn96X8pihD
+3PxW527yZgUJAG/0tBb5bP9uAf7BZJ7+w4+1mZX7cHhS0GCGNbj1IVhjaMUHz8B5
+CA1z0mEqV6E+jAM7uwZ/j5CepBFyRzF3EGR0Cmk43jQ=
+`pragma protect key_keyowner = "Mentor Graphics Corporation", key_keyname = "MGC-VERIF-SIM-RSA-1"
+`pragma protect key_method = "rsa"
+`pragma protect encoding = (enctype = "BASE64", line_length = 64, bytes = 128)
+`pragma protect key_block
+jzjPtRoUn8PPsxklfX6zaT8LphLOVYp5Qc0CZhyK6jq7+8iAUglEeDNRDKyckf2t
+QQWX4cNyc1gK5CGvHIfl/qI/E78FVd31gzZWJw544SiSfBwygaxfENvquE8alTLm
+WJ8EvHDOTxFMYEz4ZuZ/yTmRdWDvbJ8ZKKtSJusgjzo=
+`pragma protect key_keyowner = "Mentor Graphics Corporation", key_keyname = "MGC-VERIF-SIM-RSA-2"
+`pragma protect key_method = "rsa"
+`pragma protect encoding = (enctype = "BASE64", line_length = 64, bytes = 256)
+`pragma protect key_block
+ETJTF8X1c1qQw4+q+29oHWt3G90F6kQ0Y8oC4ALlSwTWYCjeMkaQ8KcIIkM0v/xY
+an1oO+va2fpq+6Ihjk/N4cIDwJNnHv6MOTYZtl/klE/4IwjhY85G4g7NG+7V8aZb
+m/cIU1eLAFrgAP4728XEAM0ZvrKP9czlA7aCtQEcCWUhNxRFmgqhEMtUT/0vKrk3
+Lq9ZpWFX2Ci5VvNheRjwCGZFlZuJWrnBWL7zQCZ+mJNDLusL7LcAYNHTyEOdQFHu
+J2k20M+8RgNXhmvyj8RF7pcNvT8xWoz+fv0obC3nkSwwWA3pWJjIHjdumFrf3ZfV
+1CsBVslw3jQ1WcImhxyBuQ==
+`pragma protect data_method = "AES128-CBC"
+`pragma protect encoding = (enctype = "BASE64", line_length = 64, bytes = 1680)
+`pragma protect data_block
+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
+`pragma protect end_protected

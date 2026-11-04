@@ -1,0 +1,69 @@
+
+`pragma protect begin_protected
+`pragma protect version = 1
+`pragma protect encrypt_agent = "Anlogic"
+`pragma protect encrypt_agent_info = "Anlogic Encryption Tool anlogic_2019"
+`pragma protect key_keyowner = "Anlogic", key_keyname = "anlogic-rsa-009"
+`pragma protect key_method = "rsa"
+`pragma protect encoding = (enctype = "BASE64", line_length = 64, bytes = 128)
+`pragma protect key_block
+hmpPbyfGF0bhMGT1XZfR1s0VNy8GXqVXcPVZs+5UeYF4+0RYw023Iu+HGFOTlSAK
+tVagFiBsdW+R/UFsVmAqDHFbIDc2QeIylh9iHLwNd0RzGzSrWJS3E9sbr6IfVFG+
++vfT/mcjgCZ4paOwGmWLmKq+8m1kR5t8O+To1ESbIx4=
+`pragma protect key_keyowner = "Mentor Graphics Corporation", key_keyname = "MGC-VERIF-SIM-RSA-1"
+`pragma protect key_method = "rsa"
+`pragma protect encoding = (enctype = "BASE64", line_length = 64, bytes = 128)
+`pragma protect key_block
+pBG6FJAKsK/uUoLCwooWdkmJzXT8yY6SafOZtL/lAkuLwKrSg2Z9P8gYKU3WGzxw
+l+4n2jhZsOmxl0hPgPVm3gP7pLXChezWxl1+Aq/tLK8/U0qHGpLUujFN8oqSsk2D
+If+N72PBiSlGje7KZnYZsyOGSsmdtZk+2PQwmRGNz4k=
+`pragma protect key_keyowner = "Mentor Graphics Corporation", key_keyname = "MGC-VERIF-SIM-RSA-2"
+`pragma protect key_method = "rsa"
+`pragma protect encoding = (enctype = "BASE64", line_length = 64, bytes = 256)
+`pragma protect key_block
+mJW6wSew+tBMVrOCRXnPtq4TuUZYGih51wWA2atPsYHXHOCboSpjbBmNDSki7MQw
++Nng5Yv8sPhUcBhlNw+SCUo4kT34ISYB7J4YOT1CUil0h7/F0suLPuXEo4DCKLNF
+j90CYUNZStRP13UONxYFAxMLByQOSIrGM8XcPq5bMbvx+SFkfEd1QL7cD1wS2Ud4
+sX6qFljIpdOPQcc48uiqL3dyu5lRhbASQC4NH+aFS1aq3OJ7TDBwLxXwFzZix+fo
+3i7d2UKOFneWrZogT6MVD2MnNs9BocnCJJFDYvyb/pq2oOviwmIJZF9j41C5wMsC
+5IirAKKLp7+2MF8YWUm4+Q==
+`pragma protect data_method = "AES128-CBC"
+`pragma protect encoding = (enctype = "BASE64", line_length = 64, bytes = 1712)
+`pragma protect data_block
+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
+`pragma protect end_protected

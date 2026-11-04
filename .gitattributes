@@ -1,0 +1,16 @@
+* text=auto
+*.md text eol=lf
+*.py text eol=lf
+*.al text eol=lf
+*.vp text eol=lf
+*.adc text eol=lf
+*.sdc text eol=lf
+*.mem text eol=lf
+*.bit binary
+*.bmp binary
+*.BMP binary
+*.pcm binary
+*.PCM binary
+*.BIN binary
+*.RV8 binary
+*.png binary

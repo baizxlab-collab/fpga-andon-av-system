@@ -1,0 +1,135 @@
+// //-----------------------------------------------------------------
+// //                      Baseline JPEG Decoder
+// //                             V0.1
+// //                       Ultra-Embedded.com
+// //                        Copyright 2020
+// //
+// //                   admin@ultra-embedded.com
+// //-----------------------------------------------------------------
+// //                      License: Apache 2.0
+// // This IP can be freely used in commercial projects, however you may
+// // want access to unreleased materials such as verification environments,
+// // or test vectors, as well as changes to the IP for integration purposes.
+// // If this is the case, contact the above address.
+// // I am interested to hear how and where this IP is used, so please get
+// // in touch!
+// //-----------------------------------------------------------------
+// // Copyright 2020 Ultra-Embedded.com
+// // 
+// // Licensed under the Apache License, Version 2.0 (the "License");
+// // you may not use this file except in compliance with the License.
+// // You may obtain a copy of the License at
+// // 
+// //     http://www.apache.org/licenses/LICENSE-2.0
+// // 
+// // Unless required by applicable law or agreed to in writing, software
+// // distributed under the License is distributed on an "AS IS" BASIS,
+// // WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// // See the License for the specific language governing permissions and
+// // limitations under the License.
+// //-----------------------------------------------------------------
+`pragma protect begin_protected
+`pragma protect version = 1
+`pragma protect encrypt_agent = "Anlogic"
+`pragma protect encrypt_agent_info = "Anlogic Encryption Tool anlogic_2019"
+`pragma protect key_keyowner = "Anlogic", key_keyname = "anlogic-rsa-009"
+`pragma protect key_method = "rsa"
+`pragma protect encoding = (enctype = "BASE64", line_length = 64, bytes = 128)
+`pragma protect key_block
+c3CCsZ3l30M5Y1e8q2/WRlDb4/6GhA6bZ9to2uhpOHKJq6eWAYsaiRob/LJX2YJV
+foqAkRpLcgOgC0adNauUsjbcFa3gSLwhFYG+htExWqJD4MLcWsZtwTSa4/Dticmc
+WJTNbaWmejC7yAeEmCwFsuG+bGZ/3Ga0qxYbbsXeBsg=
+`pragma protect key_keyowner = "Mentor Graphics Corporation", key_keyname = "MGC-VERIF-SIM-RSA-1"
+`pragma protect key_method = "rsa"
+`pragma protect encoding = (enctype = "BASE64", line_length = 64, bytes = 128)
+`pragma protect key_block
+QvFQXSZ74PrM3j+Ha8gTpLa3x0s8v4pTnnQFfdxoYt9PJeZmY5GD1WRwv2gmUSE1
+f0PI1TiZGYr5N8SckVJq1A40L1JURdUCb0QQjKYBfmoNIt/GRkUg8t/c+iPjNvvK
+ys6czQM0Ag8kRDIrIBiJUA6VXWmAWCYwgFhfE5bjxtg=
+`pragma protect key_keyowner = "Mentor Graphics Corporation", key_keyname = "MGC-VERIF-SIM-RSA-2"
+`pragma protect key_method = "rsa"
+`pragma protect encoding = (enctype = "BASE64", line_length = 64, bytes = 256)
+`pragma protect key_block
+Uk7p2qn2cRuICz7V4vMFi6JVDyp4Hyk7sHoF1tBU3CFfBMCs/fVnA8quXg4kE8mk
+DOSVsnliKyFhLhilAzZkfOrWORPOqdDcIyWdpwgg2Kttf4ax9554+LJSRWFBr1Ru
+JchGd3h6qRsPlcGBqJzuW+byxJeNA4yZOYEqEd0kKoVzSost3Jce4NA0g3up7qQK
+mXxr/eq5poCUvpiUojAepv579BOsLS50c2bL6TQdzz3SLgueRvTppdD7fGa9iOg7
+nSzWxW++nRrUwhhfwJd+JPouHOhTmL0mvKeKudESobUjHup+3zd9sWj8F4Si4mPo
+S/TO6KHYv3cfCn2k6obJtQ==
+`pragma protect data_method = "AES128-CBC"
+`pragma protect encoding = (enctype = "BASE64", line_length = 64, bytes = 3488)
+`pragma protect data_block
+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
+`pragma protect end_protected

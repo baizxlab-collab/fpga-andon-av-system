@@ -1,0 +1,171 @@
+standard
+***Report Model: board_c_sensors_gather Device: EG4S20BG256***
+
+IO Statistics
+#IO                        50   out of    188   26.60%
+  #input                   13
+  #output                  37
+  #inout                    0
+
+Utilization Statistics
+#lut                    19064   out of  19600   97.27%
+#reg                     9974   out of  19600   50.89%
+#le                     19064
+  #lut only              9090   out of  19064   47.68%
+  #reg only                 0   out of  19064    0.00%
+  #lut&reg               9974   out of  19064   52.32%
+#bram                      56   out of     64   87.50%
+  #bram9k                  56
+  #fifo9k                   0
+#bram32k                    8   out of     16   50.00%
+#dsp                       15   out of     29   51.72%
+#pad                       54   out of    188   28.72%
+  #ireg                     9
+  #oreg                    23
+  #treg                     0
+#pll                        1   out of      4   25.00%
+#gclk                       1   out of     16    6.25%
+
+
+Detailed IO Report
+
+        Name           Direction    Location    IOStandard    IOType    DriveStrength    PullType    PackReg  
+  fault_coupling_n       INPUT         C6        LVCMOS33      PAD           N/A          PULLUP      IREG    
+  fault_frequency_n      INPUT         C7        LVCMOS33      PAD           N/A          PULLUP      IREG    
+    fault_time_n         INPUT         C8        LVCMOS33      PAD           N/A          PULLUP      IREG    
+     flash_miso          INPUT         N8        LVCMOS33      PAD           N/A          PULLUP      NONE    
+     key_clear_n         INPUT         B1        LVCMOS33      PAD           N/A          PULLUP      IREG    
+     key_mode_n          INPUT         C1        LVCMOS33      PAD           N/A          PULLUP      IREG    
+     key_next_n          INPUT         B2        LVCMOS33      PAD           N/A          PULLUP      IREG    
+      replay_n           INPUT         C5        LVCMOS33      PAD           N/A          PULLUP      IREG    
+      rpc_sclk           INPUT        R14        LVCMOS33      PAD           N/A         PULLDOWN     IREG    
+        rst_n            INPUT         A2        LVCMOS33      PAD           N/A          PULLUP      NONE    
+       sd_miso           INPUT        B14        LVCMOS33      PAD           N/A          PULLUP      NONE    
+      sensor_rx          INPUT        R15        LVCMOS33      PAD           N/A          PULLUP      IREG    
+       sys_clk           INPUT         R7        LVCMOS33      PAD           N/A          PULLUP      NONE    
+     HDMI_CLK_P         OUTPUT         K1         LVDS33       PAD           NA            NONE       NONE    
+    HDMI_CLK_P(n)       OUTPUT         J1         LVDS33       PAD           NA            NONE       NONE    
+      HDMI_D0_P         OUTPUT         F5         LVDS33       PAD           NA            NONE       NONE    
+    HDMI_D0_P(n)        OUTPUT         F4         LVDS33       PAD           NA            NONE       NONE    
+      HDMI_D1_P         OUTPUT         E3         LVDS33       PAD           NA            NONE       NONE    
+    HDMI_D1_P(n)        OUTPUT         E4         LVDS33       PAD           NA            NONE       NONE    
+      HDMI_D2_P         OUTPUT         B3         LVDS33       PAD           NA            NONE       NONE    
+    HDMI_D2_P(n)        OUTPUT         D3         LVDS33       PAD           NA            NONE       NONE    
+     flash_cs_n         OUTPUT         P8        LVCMOS33      PAD            8           PULLUP      NONE    
+    flash_hold_n        OUTPUT         R9        LVCMOS33      PAD            8           PULLUP      NONE    
+     flash_mosi         OUTPUT         P7        LVCMOS33      PAD            8           PULLUP      NONE    
+     flash_sclk         OUTPUT         M9        LVCMOS33      PAD            8           PULLUP      NONE    
+     flash_wp_n         OUTPUT         P9        LVCMOS33      PAD            8           PULLUP      NONE    
+       sd_dclk          OUTPUT        A14        LVCMOS33      PAD            8            NONE       NONE    
+       sd_mosi          OUTPUT        A13        LVCMOS33      PAD            8            NONE       NONE    
+       sd_ncs           OUTPUT        A12        LVCMOS33      PAD            8            NONE       NONE    
+     seg_data[7]        OUTPUT         A6        LVCMOS33      PAD            8            NONE       NONE    
+     seg_data[6]        OUTPUT         A7        LVCMOS33      PAD            8            NONE       OREG    
+     seg_data[5]        OUTPUT         A8        LVCMOS33      PAD            8            NONE       OREG    
+     seg_data[4]        OUTPUT         B5        LVCMOS33      PAD            8            NONE       OREG    
+     seg_data[3]        OUTPUT         A5        LVCMOS33      PAD            8            NONE       OREG    
+     seg_data[2]        OUTPUT         B6        LVCMOS33      PAD            8            NONE       OREG    
+     seg_data[1]        OUTPUT        C16        LVCMOS33      PAD            8            NONE       OREG    
+     seg_data[0]        OUTPUT        C15        LVCMOS33      PAD            8            NONE       OREG    
+     seg_sel[7]         OUTPUT        F16        LVCMOS33      PAD            8            NONE       OREG    
+     seg_sel[6]         OUTPUT        E16        LVCMOS33      PAD            8            NONE       OREG    
+     seg_sel[5]         OUTPUT        E12        LVCMOS33      PAD            8            NONE       OREG    
+     seg_sel[4]         OUTPUT        E10        LVCMOS33      PAD            8            NONE       OREG    
+     seg_sel[3]         OUTPUT        C13        LVCMOS33      PAD            8            NONE       OREG    
+     seg_sel[2]         OUTPUT        F10        LVCMOS33      PAD            8            NONE       OREG    
+     seg_sel[1]         OUTPUT        E11        LVCMOS33      PAD            8            NONE       OREG    
+     seg_sel[0]         OUTPUT        D11        LVCMOS33      PAD            8            NONE       OREG    
+      sensor_tx         OUTPUT        T15        LVCMOS33      PAD            4            NONE       OREG    
+    view_color[4]       OUTPUT        J13        LVCMOS33      PAD            4            NONE       OREG    
+    view_color[3]       OUTPUT        J14        LVCMOS33      PAD            4            NONE       OREG    
+    view_color[2]       OUTPUT        H14        LVCMOS33      PAD            4            NONE       OREG    
+    view_color[1]       OUTPUT        H13        LVCMOS33      PAD            4            NONE       OREG    
+    view_color[0]       OUTPUT        F13        LVCMOS33      PAD            4            NONE       OREG    
+       view_de          OUTPUT        L14        LVCMOS33      PAD            4            NONE       OREG    
+      view_pclk         OUTPUT        K12        LVCMOS33      PAD            4            NONE       NONE    
+     view_vsync         OUTPUT        M14        LVCMOS33      PAD            4            NONE       OREG    
+
+Report Clock Domain Luts:
+
+--------------------------------------------------------------------------------------------------------------------
+  Index   |  Name           |  Frequency   |  LUT As Logic   |  LUT As Shifter   |  LUT As Dram   |  BRAM   |  DSP
+--------------------------------------------------------------------------------------------------------------------
+  #1      |  pixel_clk_12m  |  12MHz       |  1375           |  0                |  28            |  11     |  0
+  #2      |  sys_clk        |  50MHz       |  6833           |  0                |  218           |  58     |  15
+--------------------------------------------------------------------------------------------------------------------
+
+Clock Resource Statistics
+Index     ClockNet                                Type               DriverType         Driver                                        Fanout
+#1        sys_clk_dup_3                           Global             io                 sys_clk_syn_4.di                              6073
+#2        video_output$monitor/clocks/clk0_buf    Global             pll                video_output$monitor/clocks/pll_inst.clkc0    449
+
+Report Hierarchy Area:
++-------------------------------------------------------------------------------------------------------------+
+|Instance                      |Module                  |le      |lut     |ripple  |seq     |bram    |dsp     |
++-------------------------------------------------------------------------------------------------------------+
+|top                           |board_c_sensors_gather  |19064   |18122   |942     |10006   |64      |15      |
+|  clear_key                   |button_control          |98      |98      |0       |52      |0       |0       |
+|  configuration_flash         |andon_config_store      |1436    |1418    |18      |837     |0       |0       |
+|    u_identity                |w25q64_preflight_reader |191     |191     |0       |104     |0       |0       |
+|      u_spi_byte_engine       |spi_byte_engine         |36      |36      |0       |30      |0       |0       |
+|    u_journal                 |config_flash_journal    |1056    |1038    |18      |640     |0       |0       |
+|      u_journal               |config_journal          |371     |353     |18      |175     |0       |0       |
+|      u_store                 |w25q64_record_store     |458     |458     |0       |270     |0       |0       |
+|        u_byte_engine         |spi_byte_engine         |40      |40      |0       |27      |0       |0       |
+|  configuration_link          |c_sensor_config         |47      |47      |0       |43      |0       |0       |
+|  core                        |board_c_sensor_core     |3648    |3294    |354     |2077    |11      |9       |
+|    detector                  |anomaly_detector        |3196    |2860    |336     |1713    |6       |9       |
+|      divide                  |unsigned_divider        |288     |271     |17      |209     |0       |0       |
+|      transform               |fft64_dual              |663     |565     |98      |290     |6       |4       |
+|    event_capture             |sensor_andon_event      |85      |85      |0       |63      |0       |0       |
+|    source                    |sensor_sim_source       |367     |349     |18      |301     |5       |0       |
+|  coupling_switch             |switch_pulse            |38      |38      |0       |21      |0       |0       |
+|  display                     |seven_segment           |98      |98      |0       |59      |0       |0       |
+|  factory_controls            |c_factory_control       |18      |18      |0       |16      |0       |0       |
+|  frequency_switch            |switch_pulse            |42      |42      |0       |23      |0       |0       |
+|  media_service               |c_legacy_media          |4284    |3999    |285     |2344    |17      |4       |
+|    player                    |andon_voice_player      |692     |645     |47      |353     |2       |1       |
+|      g_soft_audio$u_softener |pcm_speech_softener     |151     |133     |18      |42      |0       |0       |
+|      u_fallback              |pcm_media_tone          |121     |110     |11      |64      |0       |1       |
+|      u_fifo                  |voice_pcm_fifo          |98      |98      |0       |76      |2       |0       |
+|      u_voice_wr_reset        |reset_sync              |2       |2       |0       |2       |0       |0       |
+|    storage                   |c_media_storage         |3581    |3343    |238     |1985    |7       |3       |
+|      replay                  |sd_sector_replay_buffer |147     |147     |0       |92      |1       |0       |
+|      scanner                 |fat32_volume_scanner    |1412    |1315    |97      |928     |4       |0       |
+|      service                 |sd_media_service        |683     |649     |34      |435     |0       |0       |
+|        u_init                |sd_spi_init             |317     |317     |0       |212     |0       |0       |
+|          u_byte_engine       |sd_spi_byte_engine      |61      |61      |0       |35      |0       |0       |
+|          u_command           |sd_spi_command          |120     |120     |0       |94      |0       |0       |
+|        u_reader              |sd_spi_sector_reader    |366     |332     |34      |223     |0       |0       |
+|          u_byte_engine       |sd_spi_byte_engine      |44      |44      |0       |35      |0       |0       |
+|      streamer                |fat32_file_streamer     |933     |848     |85      |329     |2       |2       |
+|      text_loader             |publicity_text_loader   |293     |280     |13      |146     |0       |1       |
+|  mode_key                    |button_control          |105     |105     |0       |49      |0       |0       |
+|  next_key                    |button_control          |99      |99      |0       |50      |0       |0       |
+|  replay_switch               |switch_pulse            |42      |42      |0       |22      |0       |0       |
+|  service_link                |c_media_rpc             |1780    |1763    |17      |1389    |1       |1       |
+|    phy                       |service_rpc_slave       |844     |844     |0       |687     |0       |0       |
+|  time_switch                 |switch_pulse            |40      |40      |0       |25      |0       |0       |
+|  video_directory             |c_r9_boot               |1882    |1712    |170     |1276    |0       |0       |
+|    scanner                   |c_r9_video_scanner      |1550    |1380    |170     |956     |0       |0       |
+|  video_output$monitor        |sensor_hdmi_monitor     |5267    |5169    |98      |1613    |35      |1       |
+|    capture                   |sensor_plot_capture     |1811    |1722    |89      |980     |29      |1       |
+|    clocks                    |video_pll               |0       |0       |0       |0       |0       |0       |
+|    dashboard                 |sensor_dashboard        |3290    |3281    |9       |586     |6       |0       |
+|    timing                    |video_timing_ctrl       |29      |29      |0       |23      |0       |0       |
++-------------------------------------------------------------------------------------------------------------+
+
+
+DataNet Average Fanout:
+
+   Index     Fanout     Nets   
+    #1          1       12740  
+    #2          2       5180   
+    #3          3       2439   
+    #4          4       1351   
+    #5        5-10      2060   
+    #6        11-50      589   
+    #7       51-100      109   
+    #8       101-500     63    
+    #9        >500        5    
+  Average     3.43

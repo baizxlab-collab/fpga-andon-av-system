@@ -1,0 +1,69 @@
+
+`pragma protect begin_protected
+`pragma protect version = 1
+`pragma protect encrypt_agent = "Anlogic"
+`pragma protect encrypt_agent_info = "Anlogic Encryption Tool anlogic_2019"
+`pragma protect key_keyowner = "Anlogic", key_keyname = "anlogic-rsa-009"
+`pragma protect key_method = "rsa"
+`pragma protect encoding = (enctype = "BASE64", line_length = 64, bytes = 128)
+`pragma protect key_block
+xi9KEuoiuf0I6OzJhvNwqlYIgt9DXn4D2QMEi22yQpOO05DYaPuaIH9zLCQtk7Zy
++WpimR56Y87ziF+Rss9SEiz519l/5SCKlO8/mxF755idrRML0xNhDMZHRJF3Usc5
+3Qhd1xTK1eIhKLeSqV7zlK9Ta8GDPuDaq2GvzYMV6Z8=
+`pragma protect key_keyowner = "Mentor Graphics Corporation", key_keyname = "MGC-VERIF-SIM-RSA-1"
+`pragma protect key_method = "rsa"
+`pragma protect encoding = (enctype = "BASE64", line_length = 64, bytes = 128)
+`pragma protect key_block
+WBOSeGAWmqziUJL0vKs/k+mlNRzMjcb9Wx9nZiBeGbzboswbzgoTecBbduWPWcz0
+MYv37kGTksLYpfvgZoTfTYPdtQ7fk3W+fA8/Io5Z2W7jzjZFtD3kPiH3tjBXCfnh
+Q0dShv6Tm1yWO2bEOttqJlBfFechoh4O7fdAaAYicos=
+`pragma protect key_keyowner = "Mentor Graphics Corporation", key_keyname = "MGC-VERIF-SIM-RSA-2"
+`pragma protect key_method = "rsa"
+`pragma protect encoding = (enctype = "BASE64", line_length = 64, bytes = 256)
+`pragma protect key_block
+ascB2bXpkcz4SIxTZhXhrfdvh1Z9rtoY2bSknXh77D3xPLPsNQb5Xyfc8HxETv+w
+W5yRVqgblasSElbdX5ADPtpvWSpfpakPpMrVHhgq4DQS7V0uZ6f1D5z+jpGsjadT
+cXbkVFKyoUiHrnFAZ8Naz01254phhFsRWqdzrSAPdduSCbN8UW9K2xt8xtBOVkHS
+A1qhEahELJq/OAUU7m5RYXxGjkohMMYG2uHlwFNfOgsmt7qsPou1hnxE+xA17liF
+PZYKPrDqgt4aNhQm3Gkx3RMahi8Dv4qPDBv0LDygoE0k/8rM0zGGwihbJ8bvLLn8
+2VTWcTkj/iY+g+5QsOg0cA==
+`pragma protect data_method = "AES128-CBC"
+`pragma protect encoding = (enctype = "BASE64", line_length = 64, bytes = 1728)
+`pragma protect data_block
+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
+`pragma protect end_protected

@@ -1,0 +1,139 @@
+{
+  "passed": true,
+  "encrypted_hdl_files": 317,
+  "protected_source_header_bindings": 369,
+  "boards": {
+    "A": {
+      "protected_synthesis_passed": true,
+      "isolated_relocation_elaboration_passed": true,
+      "source_binding_count": 132,
+      "source_binding_all_matched": true,
+      "gate_resources": {
+        "lut": 18301,
+        "reg": 9231,
+        "bram": 64,
+        "bram32k": 16,
+        "dsp": 27
+      },
+      "baseline_gate_resources_equal": true,
+      "baseline_physical_resources": {
+        "lut": 19020,
+        "reg": 9190,
+        "bram": 64,
+        "bram32k": 16,
+        "dsp": 27
+      },
+      "baseline_routed_timing_ns": {
+        "SWNS": 1.198,
+        "HWNS": 0.091
+      }
+    },
+    "B": {
+      "protected_synthesis_passed": true,
+      "isolated_relocation_elaboration_passed": true,
+      "source_binding_count": 128,
+      "source_binding_all_matched": true,
+      "gate_resources": {
+        "lut": 18237,
+        "reg": 10284,
+        "bram": 61,
+        "bram32k": 14,
+        "dsp": 23
+      },
+      "baseline_gate_resources_equal": true,
+      "baseline_physical_resources": {
+        "lut": 19008,
+        "reg": 10440,
+        "bram": 61,
+        "bram32k": 14,
+        "dsp": 23
+      },
+      "baseline_routed_timing_ns": {
+        "SWNS": 0.226,
+        "HWNS": 0.02
+      }
+    },
+    "C": {
+      "protected_synthesis_passed": true,
+      "isolated_relocation_elaboration_passed": true,
+      "source_binding_count": 168,
+      "source_binding_all_matched": true,
+      "gate_resources": {
+        "lut": 13817,
+        "reg": 8441,
+        "bram": 45,
+        "bram32k": 8,
+        "dsp": 23
+      },
+      "baseline_gate_resources_equal": true,
+      "baseline_physical_resources": {
+        "lut": 14419,
+        "reg": 8419,
+        "bram": 45,
+        "bram32k": 8,
+        "dsp": 23
+      },
+      "baseline_routed_timing_ns": {
+        "SWNS": 1.266,
+        "HWNS": 0.003
+      }
+    },
+    "D": {
+      "protected_synthesis_passed": true,
+      "isolated_relocation_elaboration_passed": true,
+      "source_binding_count": 65,
+      "source_binding_all_matched": true,
+      "gate_resources": {
+        "lut": 18170,
+        "reg": 9898,
+        "bram": 56,
+        "bram32k": 8,
+        "dsp": 15
+      },
+      "baseline_gate_resources_equal": true,
+      "baseline_physical_resources": {
+        "lut": 19064,
+        "reg": 9974,
+        "bram": 56,
+        "bram32k": 8,
+        "dsp": 15
+      },
+      "baseline_routed_timing_ns": {
+        "SWNS": 0.65,
+        "HWNS": 0.023
+      }
+    }
+  },
+  "hardware_feedback": {
+    "reported_by": "project_author",
+    "date": "2026-11-03",
+    "statement": "已经验证过了，挺稳定的"
+  },
+  "firmware": [
+    {
+      "file": "firmware/board_a_dual_display_rpc.bit",
+      "sha256": "459c57054a629cd4cdded14d731565e228afb0b85d1cf4595f9fe091c6d71482",
+      "bytes": 778628,
+      "kind": "original_paired_bitstream"
+    },
+    {
+      "file": "firmware/board_b_media_touch.bit",
+      "sha256": "c8696991237ee206cb2a8a446e86f6bfde1aa7d78eca6c269907f7c7ec2d3b7b",
+      "bytes": 702972,
+      "kind": "original_paired_bitstream"
+    },
+    {
+      "file": "firmware/board_c_dual_display_rpc.bit",
+      "sha256": "4c78607b5d63d591c51150a4e785d4dfccc85633e869e25831725c6873495b6b",
+      "bytes": 719271,
+      "kind": "original_paired_bitstream"
+    },
+    {
+      "file": "firmware/board_d_sensors.bit",
+      "sha256": "06e090f530c8b7c4154dda57eb5bb64105b835cd411b288820c7336d41582d8c",
+      "bytes": 732075,
+      "kind": "original_paired_bitstream"
+    }
+  ],
+  "firmware_rebuilt_from_encrypted_sources": false
+}
